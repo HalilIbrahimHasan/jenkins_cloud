@@ -39,12 +39,12 @@ public class JenkinsTests {
 
 
         assertEquals("Sally", actualData.get("firstname"));
-        assertEquals("Jackson", actualData.get("lastname"));
-        assertEquals(696, actualData.get("totalprice"));
+        assertEquals("Jones", actualData.get("lastname"));
+        assertEquals(683, actualData.get("totalprice"));
         assertEquals(true, actualData.get("depositpaid"));
 
-        assertEquals("2019-05-28", bookingdates.get("checkin"));
-        assertEquals("2021-08-27", bookingdates.get("checkout"));
+        assertEquals("2022-05-05", bookingdates.get("checkin"));
+        assertEquals("2022-05-19", bookingdates.get("checkout"));
 
 
 
